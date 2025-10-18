@@ -11,7 +11,7 @@ from .music_renderer import (
     merge_with_ffmpeg  # or merge_with_moviepy
 )
 
-load_dotenv(dotenv_path=r"final\.gitignore\.env")
+load_dotenv(dotenv_path=r".env")
 
 def process_sheet_music(image_path):
     notes = extract_notes_from_image(image_path)
