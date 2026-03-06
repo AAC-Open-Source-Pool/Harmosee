@@ -5,9 +5,9 @@ from music21 import converter
 from piano_visualizer import Piano, Video
 
 # --- CONFIGURATION ---
-FLUIDSYNTH_EXE_PATH = r"C:\Program Files\fluidsynth-2.4.8-win10-x64 (1)\bin\fluidsynth.exe"
-SOUNDFONT_PATH = r"C:\Users\asmi\.vscode\sheetmusic\final\.gitignore\soundfonts\FluidR3_GM\FluidR3_GM.sf2"
-FFMPEG_EXE_PATH = r"C:\Program Files\ffmpeg-8.0-full_build\ffmpeg-8.0-full_build\bin\ffmpeg.exe"
+FLUIDSYNTH_EXE_PATH = r"ENTER PATH"
+SOUNDFONT_PATH = r"ENTER PATH"
+FFMPEG_EXE_PATH = r"ENTER PATH"
 
 # --- STEP 1: Convert MusicXML to MIDI ---
 def convert_xml_to_midi(xml_path, midi_path):
